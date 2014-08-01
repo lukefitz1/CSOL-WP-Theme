@@ -1,0 +1,213 @@
+/*
+Theme Name: csolvlog2
+Theme URI: 
+Author: Luke
+Author URI: 
+Description: Theme for CSOL video blog
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: csolvlog
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,img,form,fieldset,input,textarea,blockquote{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:none
+}
+
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;	
+}
+
+body {
+	background:#E0E0D1;
+}
+
+#header {
+	background: -webkit-linear-gradient(left, #61be85, #fbfdfc); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #61be85, #fbfdfc); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(right, #61be85, #fbfdfc); /* For Firefox 3.6 to 15 */
+	background:linear-gradient(to right, #61be85, #fbfdfc);
+	height:50px;
+	border-top:2px solid #1a4150;
+	border-bottom:2px solid #1a4150;
+}
+
+#header img {
+	position:absolute;
+	left:15px;
+	top:5.5px;
+}
+
+#imgBar{
+	margin:0px 0px 15px 0px;
+	width:855px;
+	height:175px;
+}
+
+#titleBar {
+	width:840px;
+	margin-bottom:25px;
+	background:#EEEEEE;
+	padding:10px 15px 10px 0;
+}
+
+#titleBar a {
+	text-decoration:none;
+	list-style-type:none;
+}
+
+#titleBar a h3 {
+	font-family:Yanone Kaffeesatz, arial;
+	font-size:35px;
+	font-weight:normal;
+	text-align:right;
+	color:#424253;
+}
+
+.wrapper {
+	min-height:100%;
+}
+
+#main {
+	margin-left:auto;
+	margin-right:auto;
+	border-left:1px solid #1a4150;
+	border-right:1px solid #1a4150;
+	width:855px;
+	padding:35px 50px;
+	height:100%;
+	background:#FAFAFA;
+	overflow:hidden;	
+}
+
+h2 {
+	font-size:20px;
+}
+
+#title {
+	font-family:arial, sans-serif;
+}
+
+#title a {
+	text-decoration:none;
+	list-style-type:none;
+	color:#424253;
+}
+
+#title a:hover {
+	text-decoration:underline;
+}
+
+#post {
+	margin-bottom:25px;
+}
+
+#sidebar {
+	float:right;
+	margin-top:18px;
+	padding:0 10px;
+	border-top:3px solid #757593;
+	border-bottom:3px solid #757593;
+}
+
+#sidebar ul {
+	margin-top:8px;
+	margin-bottom:8px;
+	list-style-type:none;
+}
+
+#sidebar ul li {
+	padding-top:3px;
+}
+
+#sidebar ul li a {
+	text-decoration:none;
+	color:#424253;
+}
+
+#sidebar ul li a:hover {
+	text-decoration:underline;
+}
+	
+#login {
+	height:200px;
+	width:320px;
+	border:1px solid black;
+	border-radius:5px;
+	margin:30px auto;
+	padding:30px;
+	background:#ecf4f7;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#newUser {
+	width:320px;
+	border:1px solid black;
+	border-radius:5px;
+	margin:30px auto;
+	padding:30px;
+	background:#ecf4f7;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+form {
+	padding:15px;	
+}
+
+form h4 {
+	text-align:center;
+	padding-bottom:15px;	
+}
+
+form label {
+	font-weight:bold;
+	font-size:.75em;	
+}
+
+input[type=password],[type=email] {
+	margin-bottom:25px;	
+}
+
+input[type=text],[type=password],[type=email] {
+	border:1px solid black;
+	border-radius:2px;	
+	height:20px;
+	padding:2px;
+	width: 285px;
+}
+
+input:focus {
+	border:1px solid blue;
+	border-radius:2px;	
+}
+
+form button {
+	height:28px;
+	width:80px;	
+	font-size:12px;	
+	display:block;
+	float:right;
+}
+
+#footer {
+	background: -webkit-linear-gradient(left, #61be85, #fbfdfc); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #61be85, #fbfdfc); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(right, #61be85, #fbfdfc); /* For Firefox 3.6 to 15 */
+	background:linear-gradient(to right, #61be85, #fbfdfc);
+	height:50px;
+	position:relative;
+	border-top:2px solid #1a4150;
+	border-bottom:2px solid #1a4150;
+}
+
+
+
